@@ -10,10 +10,6 @@
 		90266CB525A560B1009BFDDD /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90266CB425A560B1009BFDDD /* CardView.swift */; };
 		90266CB825A58169009BFDDD /* ScrumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90266CB725A58169009BFDDD /* ScrumView.swift */; };
 		90266CBB25A5A358009BFDDD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90266CBA25A5A358009BFDDD /* DetailView.swift */; };
-		90266CCB25A6E2CF009BFDDD /* MyUIPlaygroundFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90266CC225A6E2CE009BFDDD /* MyUIPlaygroundFramework.framework */; };
-		90266CD225A6E2CF009BFDDD /* MyUIPlaygroundFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90266CD125A6E2CF009BFDDD /* MyUIPlaygroundFrameworkTests.swift */; };
-		90266CD425A6E2CF009BFDDD /* MyUIPlaygroundFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 90266CC425A6E2CE009BFDDD /* MyUIPlaygroundFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90266CE325A6E31E009BFDDD /* TestUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90266CE225A6E31E009BFDDD /* TestUI.swift */; };
 		9088FCA025A849B9000EA7BE /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9088FC9F25A849B9000EA7BE /* EditView.swift */; };
 		908FEAE625A55B2A003167A7 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908FEAE525A55B2A003167A7 /* DailyScrum.swift */; };
 		90DFBA7025A411C300AA9D5F /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFBA6F25A411C300AA9D5F /* ScrumdingerApp.swift */; };
@@ -43,17 +39,11 @@
 		90266CB425A560B1009BFDDD /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		90266CB725A58169009BFDDD /* ScrumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumView.swift; sourceTree = "<group>"; };
 		90266CBA25A5A358009BFDDD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		90266CC225A6E2CE009BFDDD /* MyUIPlaygroundFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyUIPlaygroundFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		90266CC425A6E2CE009BFDDD /* MyUIPlaygroundFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUIPlaygroundFramework.h; sourceTree = "<group>"; };
-		90266CC525A6E2CE009BFDDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90266CCA25A6E2CF009BFDDD /* MyUIPlaygroundFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyUIPlaygroundFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		90266CD125A6E2CF009BFDDD /* MyUIPlaygroundFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUIPlaygroundFrameworkTests.swift; sourceTree = "<group>"; };
-		90266CD325A6E2CF009BFDDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90266CE225A6E31E009BFDDD /* TestUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUI.swift; sourceTree = "<group>"; };
-		90266CE625A6E3B5009BFDDD /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		90266CC225A6E2CE009BFDDD /* MyUIPlaygroundFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MyUIPlaygroundFramework.framework; path = "/Users/lennycheng/Documents/Scrumdinger/build/Debug-iphoneos/MyUIPlaygroundFramework.framework"; sourceTree = "<absolute>"; };
+		90266CCA25A6E2CF009BFDDD /* MyUIPlaygroundFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MyUIPlaygroundFrameworkTests.xctest; path = "/Users/lennycheng/Documents/Scrumdinger/build/Debug-iphoneos/MyUIPlaygroundFrameworkTests.xctest"; sourceTree = "<absolute>"; };
 		9088FC9F25A849B9000EA7BE /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EditView.swift; path = /Users/lennycheng/Documents/Scrumdinger/Scrumdinger/EditView.swift; sourceTree = "<absolute>"; };
 		908FEAE525A55B2A003167A7 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
-		90DFBA6C25A411C300AA9D5F /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90DFBA6C25A411C300AA9D5F /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Scrumdinger.app; path = "/Users/lennycheng/Documents/Scrumdinger/build/Debug-iphoneos/Scrumdinger.app"; sourceTree = "<absolute>"; };
 		90DFBA6F25A411C300AA9D5F /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		90DFBA7125A411C300AA9D5F /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		90DFBA7325A411C500AA9D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,7 +63,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90266CCB25A6E2CF009BFDDD /* MyUIPlaygroundFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,24 +76,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		90266CC325A6E2CE009BFDDD /* MyUIPlaygroundFramework */ = {
-			isa = PBXGroup;
-			children = (
-				90266CC425A6E2CE009BFDDD /* MyUIPlaygroundFramework.h */,
-				90266CC525A6E2CE009BFDDD /* Info.plist */,
-			);
-			path = MyUIPlaygroundFramework;
-			sourceTree = "<group>";
-		};
-		90266CD025A6E2CF009BFDDD /* MyUIPlaygroundFrameworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				90266CD125A6E2CF009BFDDD /* MyUIPlaygroundFrameworkTests.swift */,
-				90266CD325A6E2CF009BFDDD /* Info.plist */,
-			);
-			path = MyUIPlaygroundFrameworkTests;
-			sourceTree = "<group>";
-		};
 		908FEAE825A55B3E003167A7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,23 +87,8 @@
 		90DFBA6325A411C300AA9D5F = {
 			isa = PBXGroup;
 			children = (
-				90266CE225A6E31E009BFDDD /* TestUI.swift */,
-				90266CE625A6E3B5009BFDDD /* MyPlayground.playground */,
 				90DFBA6E25A411C300AA9D5F /* Scrumdinger */,
-				90266CC325A6E2CE009BFDDD /* MyUIPlaygroundFramework */,
-				90266CD025A6E2CF009BFDDD /* MyUIPlaygroundFrameworkTests */,
-				90DFBA6D25A411C300AA9D5F /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		90DFBA6D25A411C300AA9D5F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				90DFBA6C25A411C300AA9D5F /* Scrumdinger.app */,
-				90266CC225A6E2CE009BFDDD /* MyUIPlaygroundFramework.framework */,
-				90266CCA25A6E2CF009BFDDD /* MyUIPlaygroundFrameworkTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		90DFBA6E25A411C300AA9D5F /* Scrumdinger */ = {
@@ -167,7 +123,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90266CD425A6E2CF009BFDDD /* MyUIPlaygroundFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +214,7 @@
 				Base,
 			);
 			mainGroup = 90DFBA6325A411C300AA9D5F;
-			productRefGroup = 90DFBA6D25A411C300AA9D5F /* Products */;
+			productRefGroup = 90DFBA6325A411C300AA9D5F;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -301,7 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90266CE325A6E31E009BFDDD /* TestUI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90266CD225A6E2CF009BFDDD /* MyUIPlaygroundFrameworkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,7 +356,6 @@
 		90266CDE25A6E2CF009BFDDD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UQE8HAFWVF;
 				INFOPLIST_FILE = MyUIPlaygroundFrameworkTests/Info.plist;
@@ -423,7 +375,6 @@
 		90266CDF25A6E2CF009BFDDD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UQE8HAFWVF;
 				INFOPLIST_FILE = MyUIPlaygroundFrameworkTests/Info.plist;
