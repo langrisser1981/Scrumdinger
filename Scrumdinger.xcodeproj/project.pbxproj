@@ -10,6 +10,11 @@
 		90266CB525A560B1009BFDDD /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90266CB425A560B1009BFDDD /* CardView.swift */; };
 		90266CB825A58169009BFDDD /* ScrumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90266CB725A58169009BFDDD /* ScrumView.swift */; };
 		90266CBB25A5A358009BFDDD /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90266CBA25A5A358009BFDDD /* DetailView.swift */; };
+		90266CCB25A6E2CF009BFDDD /* MyUIPlaygroundFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90266CC225A6E2CE009BFDDD /* MyUIPlaygroundFramework.framework */; };
+		90266CD225A6E2CF009BFDDD /* MyUIPlaygroundFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90266CD125A6E2CF009BFDDD /* MyUIPlaygroundFrameworkTests.swift */; };
+		90266CD425A6E2CF009BFDDD /* MyUIPlaygroundFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 90266CC425A6E2CE009BFDDD /* MyUIPlaygroundFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90266CE325A6E31E009BFDDD /* TestUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90266CE225A6E31E009BFDDD /* TestUI.swift */; };
+		9088FCA025A849B9000EA7BE /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9088FC9F25A849B9000EA7BE /* EditView.swift */; };
 		908FEAE625A55B2A003167A7 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908FEAE525A55B2A003167A7 /* DailyScrum.swift */; };
 		90DFBA7025A411C300AA9D5F /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFBA6F25A411C300AA9D5F /* ScrumdingerApp.swift */; };
 		90DFBA7225A411C300AA9D5F /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DFBA7125A411C300AA9D5F /* MeetingView.swift */; };
@@ -17,10 +22,36 @@
 		90DFBA7725A411C500AA9D5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90DFBA7625A411C500AA9D5F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		90266CCC25A6E2CF009BFDDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90DFBA6425A411C300AA9D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90266CC125A6E2CE009BFDDD;
+			remoteInfo = MyUIPlaygroundFramework;
+		};
+		90266CCE25A6E2CF009BFDDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90DFBA6425A411C300AA9D5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90DFBA6B25A411C300AA9D5F;
+			remoteInfo = Scrumdinger;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		90266CB425A560B1009BFDDD /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		90266CB725A58169009BFDDD /* ScrumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumView.swift; sourceTree = "<group>"; };
 		90266CBA25A5A358009BFDDD /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		90266CC225A6E2CE009BFDDD /* MyUIPlaygroundFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyUIPlaygroundFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90266CC425A6E2CE009BFDDD /* MyUIPlaygroundFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyUIPlaygroundFramework.h; sourceTree = "<group>"; };
+		90266CC525A6E2CE009BFDDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90266CCA25A6E2CF009BFDDD /* MyUIPlaygroundFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyUIPlaygroundFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90266CD125A6E2CF009BFDDD /* MyUIPlaygroundFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyUIPlaygroundFrameworkTests.swift; sourceTree = "<group>"; };
+		90266CD325A6E2CF009BFDDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90266CE225A6E31E009BFDDD /* TestUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUI.swift; sourceTree = "<group>"; };
+		90266CE625A6E3B5009BFDDD /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		9088FC9F25A849B9000EA7BE /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EditView.swift; path = /Users/lennycheng/Documents/Scrumdinger/Scrumdinger/EditView.swift; sourceTree = "<absolute>"; };
 		908FEAE525A55B2A003167A7 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		90DFBA6C25A411C300AA9D5F /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90DFBA6F25A411C300AA9D5F /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
@@ -31,6 +62,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		90266CBF25A6E2CE009BFDDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90266CC725A6E2CF009BFDDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90266CCB25A6E2CF009BFDDD /* MyUIPlaygroundFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90DFBA6925A411C300AA9D5F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -41,6 +87,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90266CC325A6E2CE009BFDDD /* MyUIPlaygroundFramework */ = {
+			isa = PBXGroup;
+			children = (
+				90266CC425A6E2CE009BFDDD /* MyUIPlaygroundFramework.h */,
+				90266CC525A6E2CE009BFDDD /* Info.plist */,
+			);
+			path = MyUIPlaygroundFramework;
+			sourceTree = "<group>";
+		};
+		90266CD025A6E2CF009BFDDD /* MyUIPlaygroundFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				90266CD125A6E2CF009BFDDD /* MyUIPlaygroundFrameworkTests.swift */,
+				90266CD325A6E2CF009BFDDD /* Info.plist */,
+			);
+			path = MyUIPlaygroundFrameworkTests;
+			sourceTree = "<group>";
+		};
 		908FEAE825A55B3E003167A7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +116,11 @@
 		90DFBA6325A411C300AA9D5F = {
 			isa = PBXGroup;
 			children = (
+				90266CE225A6E31E009BFDDD /* TestUI.swift */,
+				90266CE625A6E3B5009BFDDD /* MyPlayground.playground */,
 				90DFBA6E25A411C300AA9D5F /* Scrumdinger */,
+				90266CC325A6E2CE009BFDDD /* MyUIPlaygroundFramework */,
+				90266CD025A6E2CF009BFDDD /* MyUIPlaygroundFrameworkTests */,
 				90DFBA6D25A411C300AA9D5F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,6 +129,8 @@
 			isa = PBXGroup;
 			children = (
 				90DFBA6C25A411C300AA9D5F /* Scrumdinger.app */,
+				90266CC225A6E2CE009BFDDD /* MyUIPlaygroundFramework.framework */,
+				90266CCA25A6E2CF009BFDDD /* MyUIPlaygroundFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,6 +138,7 @@
 		90DFBA6E25A411C300AA9D5F /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				9088FC9F25A849B9000EA7BE /* EditView.swift */,
 				90266CB425A560B1009BFDDD /* CardView.swift */,
 				90266CB725A58169009BFDDD /* ScrumView.swift */,
 				90266CBA25A5A358009BFDDD /* DetailView.swift */,
@@ -91,7 +162,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		90266CBD25A6E2CE009BFDDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90266CD425A6E2CF009BFDDD /* MyUIPlaygroundFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		90266CC125A6E2CE009BFDDD /* MyUIPlaygroundFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90266CD925A6E2CF009BFDDD /* Build configuration list for PBXNativeTarget "MyUIPlaygroundFramework" */;
+			buildPhases = (
+				90266CBD25A6E2CE009BFDDD /* Headers */,
+				90266CBE25A6E2CE009BFDDD /* Sources */,
+				90266CBF25A6E2CE009BFDDD /* Frameworks */,
+				90266CC025A6E2CE009BFDDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyUIPlaygroundFramework;
+			productName = MyUIPlaygroundFramework;
+			productReference = 90266CC225A6E2CE009BFDDD /* MyUIPlaygroundFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90266CC925A6E2CF009BFDDD /* MyUIPlaygroundFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90266CDD25A6E2CF009BFDDD /* Build configuration list for PBXNativeTarget "MyUIPlaygroundFrameworkTests" */;
+			buildPhases = (
+				90266CC625A6E2CF009BFDDD /* Sources */,
+				90266CC725A6E2CF009BFDDD /* Frameworks */,
+				90266CC825A6E2CF009BFDDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90266CCD25A6E2CF009BFDDD /* PBXTargetDependency */,
+				90266CCF25A6E2CF009BFDDD /* PBXTargetDependency */,
+			);
+			name = MyUIPlaygroundFrameworkTests;
+			productName = MyUIPlaygroundFrameworkTests;
+			productReference = 90266CCA25A6E2CF009BFDDD /* MyUIPlaygroundFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		90DFBA6B25A411C300AA9D5F /* Scrumdinger */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90DFBA7B25A411C500AA9D5F /* Build configuration list for PBXNativeTarget "Scrumdinger" */;
@@ -118,6 +237,14 @@
 				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
+					90266CC125A6E2CE009BFDDD = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+					90266CC925A6E2CF009BFDDD = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 90DFBA6B25A411C300AA9D5F;
+					};
 					90DFBA6B25A411C300AA9D5F = {
 						CreatedOnToolsVersion = 12.3;
 					};
@@ -137,11 +264,27 @@
 			projectRoot = "";
 			targets = (
 				90DFBA6B25A411C300AA9D5F /* Scrumdinger */,
+				90266CC125A6E2CE009BFDDD /* MyUIPlaygroundFramework */,
+				90266CC925A6E2CF009BFDDD /* MyUIPlaygroundFrameworkTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		90266CC025A6E2CE009BFDDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90266CC825A6E2CF009BFDDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90DFBA6A25A411C300AA9D5F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -154,12 +297,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		90266CBE25A6E2CE009BFDDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90266CE325A6E31E009BFDDD /* TestUI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90266CC625A6E2CF009BFDDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90266CD225A6E2CF009BFDDD /* MyUIPlaygroundFrameworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		90DFBA6825A411C300AA9D5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				90DFBA7225A411C300AA9D5F /* MeetingView.swift in Sources */,
 				90266CBB25A5A358009BFDDD /* DetailView.swift in Sources */,
+				9088FCA025A849B9000EA7BE /* EditView.swift in Sources */,
 				908FEAE625A55B2A003167A7 /* DailyScrum.swift in Sources */,
 				90266CB825A58169009BFDDD /* ScrumView.swift in Sources */,
 				90266CB525A560B1009BFDDD /* CardView.swift in Sources */,
@@ -169,7 +329,117 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		90266CCD25A6E2CF009BFDDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90266CC125A6E2CE009BFDDD /* MyUIPlaygroundFramework */;
+			targetProxy = 90266CCC25A6E2CF009BFDDD /* PBXContainerItemProxy */;
+		};
+		90266CCF25A6E2CF009BFDDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90DFBA6B25A411C300AA9D5F /* Scrumdinger */;
+			targetProxy = 90266CCE25A6E2CF009BFDDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		90266CDA25A6E2CF009BFDDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UQE8HAFWVF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyUIPlaygroundFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = idv.lenny.MyUIPlaygroundFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90266CDB25A6E2CF009BFDDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UQE8HAFWVF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = MyUIPlaygroundFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = idv.lenny.MyUIPlaygroundFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90266CDE25A6E2CF009BFDDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQE8HAFWVF;
+				INFOPLIST_FILE = MyUIPlaygroundFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = idv.lenny.MyUIPlaygroundFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scrumdinger.app/Scrumdinger";
+			};
+			name = Debug;
+		};
+		90266CDF25A6E2CF009BFDDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UQE8HAFWVF;
+				INFOPLIST_FILE = MyUIPlaygroundFrameworkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = idv.lenny.MyUIPlaygroundFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scrumdinger.app/Scrumdinger";
+			};
+			name = Release;
+		};
 		90DFBA7925A411C500AA9D5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -333,6 +603,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		90266CD925A6E2CF009BFDDD /* Build configuration list for PBXNativeTarget "MyUIPlaygroundFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90266CDA25A6E2CF009BFDDD /* Debug */,
+				90266CDB25A6E2CF009BFDDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90266CDD25A6E2CF009BFDDD /* Build configuration list for PBXNativeTarget "MyUIPlaygroundFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90266CDE25A6E2CF009BFDDD /* Debug */,
+				90266CDF25A6E2CF009BFDDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		90DFBA6725A411C300AA9D5F /* Build configuration list for PBXProject "Scrumdinger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

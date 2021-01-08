@@ -13,10 +13,10 @@ struct ScrumView: View {
         List{
             ForEach(scrums) {
                 scrum in
-                NavigationLink( destination: Text(scrum.title)) {
-                    CardView(scrum: scrum)
-                }
-                .listRowBackground(scrum.color)
+                    NavigationLink( destination: DetailView(scrum: scrum)) {
+                        CardView(scrum: scrum)
+                    }
+                    .listRowBackground(scrum.color)
             }
         }
         .navigationTitle("Daily Scrums")
